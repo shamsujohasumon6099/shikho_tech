@@ -1,0 +1,154 @@
+.Home {
+    background-color: #354996;
+    height: 594px;
+
+    .landing-page {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-self: space-between;
+        align-items: center;
+        gap: 100px;
+        background-color: #354996;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            max-width: 510px;
+            width: 100%;
+            margin-right: 50px;
+
+            .title {
+                font-size: 36px;
+                color: #fff;
+                text-align-last: left;
+            }
+
+            .sub-title {
+                font-size: 24px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .duel-btn {
+                display: flex;
+                gap: 20px;
+                margin-top: 20px;
+
+                .left-btn {
+                    padding: 13px 28px;
+                    border: 2px solid #C1197F;
+                    color: #C1197F;
+                    font-size: 17px;
+                    font-weight: 500;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: #C1197F;
+                        color: #fff;
+                    }
+                }
+
+                .right-btn {
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: #C1197F;
+                    color: #fff;
+                    display: flex;
+                    gap: 5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 17px;
+
+                    &:hover {
+                        background: #454c7e;
+                    }
+                }
+            }
+
+        }
+
+        .right {
+            max-width: 534px;
+            width: 100%;
+            height: 100%;
+            margin-left: 50px;
+            margin-top: 92px;
+
+            .homeBanner {
+                width: 534px;
+                height: 502px;
+                align-self: end;
+
+            }
+
+        }
+    }
+
+
+    .title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 145%;
+        color: #343b6d;
+    }
+
+
+    .result-Feture {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        gap: 40px;
+        padding: 45px 0 90px;
+        justify-content: center;
+        align-items: center;
+
+        .result-feture-cart {
+            background-color: #F3F5F9;
+            padding: 32px 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 20px;
+            width: 280px;
+
+            .top {
+                width: 85px;
+            }
+
+            .title {
+                color: #343b6d;
+                font-weight: 600;
+                font-size: 22px;
+            }
+
+            .discription {
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                color: #454c7e;
+            }
+
+        }
+    }
+
+
+
+    .solution-card-main {
+        background-color: #F3F5F9;
+        padding: 90px 0;
+        .title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 145%;
+            color: #343b6d;
+        }
+    }
+
+
+}

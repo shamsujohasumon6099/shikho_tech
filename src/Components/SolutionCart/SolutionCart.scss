@@ -1,0 +1,104 @@
+.solutionCart {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .solution-cart-details {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 620px;
+        border-radius: 20px;
+        margin-top: 50px;
+
+        &:hover .cart-Top {
+            background: #C1197F;
+
+            .title {
+                color: #fff;
+            }
+        }
+
+
+        .cart-Top {
+            background: #D9E5F2;
+            border-radius: 20px 20px 0 0;
+
+            .title {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 170%;
+                color: #343b6d;
+                text-align: center;
+                padding: 16px;
+                transition: all .3s ease;
+            }
+
+        }
+
+
+
+        .cart-middle {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 35px 0;
+
+            .point {
+                width: 220px;
+                margin-bottom: 15px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 170%;
+                color: #C1197F;
+                align-items: center;
+                display: flex;
+                gap: 8px;
+
+                span {
+                    color: #343b6d;
+                }
+            }
+        }
+
+        .cart-buttom {
+            height: 55px;
+            padding: 0 10px;
+            background: #eceeff;
+            border-radius: 15px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 145%;
+            color: #475dff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .3s ease;
+            border: none;
+            margin-bottom: 10px;
+
+            &:hover {
+                background: #475dff;
+                color: #fff;
+            }
+        }
+
+        .cart-bottom {
+            display: flex;
+            flex-direction: column;
+            padding: 32px;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 20px;
+
+            .cart-image {
+                width: 556px;
+                height: 313px;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}

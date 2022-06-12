@@ -1,0 +1,155 @@
+.courseTab {
+    background-color: #F3F5F9;
+    height: 1050px;
+    margin: 0 auto 90px;
+
+    .course-tab-body {
+        width: 1280px;
+        margin: 0 auto 90px;
+        padding: 90px 0;
+
+        .tab-btn {
+            padding: 10px 30px;
+            border : none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 10px;
+            background: #C1197F;
+            margin: auto;
+            display: block;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            &:hover {
+                background-color: #475DFF;
+            }
+        }
+
+        .title {
+            font-weight: 600;
+            font-size: 32px;
+            text-align: center;
+            color: #343b6d;
+            padding-bottom: 40px;
+        }
+
+        .tab-body-main {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 0 30px;
+        }
+
+
+        .css-1aquho2-MuiTabs-indicator {
+            height: 3px;
+            background-color: #C1197F;
+        }
+
+        .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+            color: #C1197F;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .css-aym9vq-MuiButtonBase-root-MuiTab-root {
+            color: #343b6d;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+
+
+}
+
+
+.course-tab-card {
+    width: 389px;
+    border: 1px solid #d0deef;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 5px 0 5px;
+    cursor: pointer;
+
+    .card-top {
+        width: 388px;
+        height: 228px;
+        border-radius: 15px 15px 0 0;
+
+    }
+
+    .card-middle {
+        padding: 20px 24px;
+
+
+        .title {
+            font-size: 20px;
+            text-align: left;
+            color: #354895;
+        }
+
+        .description {
+            font-size: 16px;
+            text-align: left;
+            color: #676ea0;
+        }
+    }
+
+    .card-bottom {
+        background-color: rgb(236, 238, 255);
+        margin: 0;
+        display: flex;
+        padding: 17.5px 24px;
+        border-radius: 0 0 15px 15px;
+        justify-content: space-between;
+        align-items: center;
+
+        .price-tab {
+            display: flex;
+            flex: 1;
+            align-items: center;
+
+
+            .current-price {
+                font-size: 18px;
+                color: #354895;
+                font-weight: 500;
+
+
+                span {
+                    color: #C1197F;
+                    padding-right: 10px;
+                    padding-left: 5px;
+                }
+            }
+
+            .old-price {
+                text-decoration-line: line-through;
+                color: #676ea0;
+            }
+
+
+        }
+
+        .tab-btn {
+            padding: 8px 14px;
+            border: 1px solid #C1197F;
+            color: #C1197F;
+            font-size: 17px;
+            font-weight: 400;
+            border-radius: 10px;
+            background: transparent;
+
+            &:hover {
+                background-color: #C1197F;
+                color: #fff;
+            }
+        }
+    }
+}

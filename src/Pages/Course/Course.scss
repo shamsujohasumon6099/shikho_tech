@@ -1,0 +1,114 @@
+.course {
+    background-image: linear-gradient(45deg, #C1197F, #354895, #c1197e);
+    height: 594px;
+
+    .landing-page {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-self: space-between;
+        align-items: center;
+        gap: 100px;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            max-width: 510px;
+            width: 100%;
+            margin-right: 50px;
+
+            .title {
+                font-size: 36px;
+                color: #fff;
+                text-align-last: left;
+            }
+
+            .sub-title {
+                font-size: 24px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .duel-btn {
+                display: flex;
+                gap: 20px;
+                margin-top: 20px;
+
+                .left-btn {
+                    padding: 13px 28px;
+                    border: 2px solid #C1197F;
+                    color: #C1197F;
+                    font-size: 17px;
+                    font-weight: 500;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: #C1197F;
+                        color: #fff;
+                    }
+                }
+
+                .right-btn {
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: #C1197F;
+                    color: #fff;
+                    display: flex;
+                    gap: 5px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 17px;
+
+                    &:hover {
+                        background: #454c7e;
+                    }
+                }
+            }
+
+        }
+
+        .right {
+            max-width: 534px;
+            width: 100%;
+            height: 100%;
+            margin-left: 50px;
+            margin-top: 92px;
+
+            .homeBanner {
+                width: 534px;
+                height: 502px;
+                align-self: end;
+
+            }
+
+        }
+    }
+
+    .tab-body-main {
+        background: #F3F5F9;
+        padding: 50px;
+
+
+        .title-course {
+            text-align: center;
+            font-family: Hind Siliguri;
+            text-align: center;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 170%;
+            color: #343b6d;
+            margin-bottom: 25px;
+        }
+
+        .tab-body {
+            width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+}

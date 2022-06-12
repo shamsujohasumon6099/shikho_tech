@@ -1,0 +1,70 @@
+.tabs {
+    margin: 90px auto;
+
+
+    .tabs-bar {
+        background-color: #F0F6F8;
+        border-radius: 15px 15px 0 0;
+        // border-top: 1px solid rgba(59,130,246,0.5);
+        // border-left: 1px solid rgba(59,130,246,0.5);
+        // border-right: 1px solid rgba(59,130,246,0.5);
+        box-shadow: none;
+
+        padding: 10px 0 0 0;
+
+        .css-11yukd5-MuiTabs-indicator {
+            height: 5px;
+            background-color: #C1197F;
+        }
+
+        .tab-1 {
+            font-size: 19px;
+            color: #343b6d;
+            font-weight: 600;
+
+        }
+    }
+
+    .tab-body-main {
+        background-color: #F0F6F8;
+        border-radius: 0 0 15px 15px;
+        padding: 30px 10px;
+        .tab-body {
+            display: flex;
+            flex-wrap: wrap;
+            // justify-content: space-around;
+            gap: 25px;
+        }
+    }
+}
+
+.tabDetails {
+    // border: 1px solid #C1197F;
+    width: 284px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 10px 12px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #343b6d;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #C1197F;
+        color: #fff;
+    }
+
+    &:hover .tab-img{
+        background: #fff;
+    }
+
+    .tab-img{
+        // background: #c1197e1d;
+        padding: 8px;
+        width: 50px;
+        border-radius: 10px;
+
+    }
+}

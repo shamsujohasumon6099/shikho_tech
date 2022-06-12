@@ -1,0 +1,36 @@
+.TopBar {
+    background: rgb(193, 25, 127);
+    height: 85px;
+    cursor: pointer;
+
+    .top {
+        display: flex;
+        width: 1280px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+
+        .title {
+            color: #fff;
+            font-weight: 500;
+            font-size: 23px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .topMobile {
+            width: 83px;
+            height: 86px;
+        }
+
+        .playStoreIcon {
+            width: 170px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 15px 20px;
+            border-radius: 10px;
+        }
+    }
+}
